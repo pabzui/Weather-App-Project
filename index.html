@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App - Chantal</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/script.js" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <h4 id="date"></h4>
+        <h6>
+            <div>
+                Condition:
+            </div>
+        </h6>
+        <h6>
+            <div>Wind: Precipitation:</div>
+        </h6>
+        <h1>
+            ⛅
+        </h1>
+        <h2>
+            <a href="#" id="celsius-link">°C</a> |
+            <a href="#" id="fahrenheit-link">°F</a>
+        </h2>
+
+        <form class="search-form" id="search-form">
+            <input type="text" placeholder="Change City" autocomplete="off" />
+            <input type="submit" />
+            <input type="search" placeholder="Type a city.." autofocus="on" autocomplete="off" id="city-input"
+                class="form-control shadow-sm" />
+        </form>
+
+        <button type="button" class="location"> Current location </button>
+
+
+
+        <div class="row">
+            <div class="col-2">
+                <div class="card" style="width: 25rem;">
+                    ⛈
+                    <div class="card-body">
+                        <h5 class="card-title">Date</h5>
+                        <p class="card-text">
+                        <div><strong>°c/°f</strong></div>
+                        <div>condition:</div>
+                        <div>precipitation:</div>
+                        <div>wind:</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card" style="width: 25rem;">
+                    🌤
+                    <div class="card-body">
+                        <h5 class="card-title">05/24</h5>
+                        <p class="card-text">
+                        <div><strong>°c/°f</strong></div>
+                        <div>condition:</div>
+                        <div>precipitation:</div>
+                        <div>wind:</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card" style="width: 25rem;">
+                    ☀
+                    <div class="card-body">
+                        <h5 class="card-title">05/25</h5>
+                        <p class="card-text">
+                        <div><strong>°c/°f</strong></div>
+                        <div>condition:</div>
+                        <div>precipitation:</div>
+                        <div>wind:</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card" style="width: 25rem;">
+                    ⛈
+                    <div class="card-body">
+                        <h5 class="card-title">05/26</h5>
+                        <p class="card-text">
+                        <div><strong>°c/°f</strong></div>
+                        <div>condition:</div>
+                        <div>precipitation:</div>
+                        <div>wind:</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card" style="width: 25rem;">
+                    ⛈
+                    <div class="card-body">
+                        <h5 class="card-title">05/27</h5>
+                        <p class="card-text">
+                        <div><strong>°c/°f</strong></div>
+                        <div>condition:</div>
+                        <div>precipitation:</div>
+                        <div>wind:</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+</body>
+
+</html>
